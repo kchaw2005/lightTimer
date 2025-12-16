@@ -1,3 +1,11 @@
-/target
+/target/
+**/*.rs.bk
+
+# ignore everything
 *
-!main.rs
+
+# allow the minimal buildable project files
+!Cargo.toml
+!Cargo.lock
+!src/
+!src/main.rs
